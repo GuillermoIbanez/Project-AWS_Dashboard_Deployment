@@ -10,7 +10,7 @@
 
 <div style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; margin: 20px 0;">
   <p style="font-size: 18px;">
-    This project demonstrates the complete deployment process of a Python Dash financial dashboard on AWS infrastructure. The main goal was to successfully deploy and host an interactive dashboard application using AWS services, focusing on the deployment methodology rather than the dashboard code itself. Through various trials with different AWS services, we achieved a stable, accessible web application running on AWS EC2.<br>
+    This project demonstrates the complete deployment process of a Python Dash financial dashboard on AWS infrastructure using Amazon Lightsail. The main goal was to successfully deploy and host an interactive dashboard application using AWS services, focusing on the deployment methodology rather than the dashboard code itself. Through various trials with different AWS services, we achieved a stable, accessible web application running on Amazon Lightsail.<br>
     For details on the Python code and the data set used please visit the Dashboard Project Repository <a href="https://github.com/GuillermoIbanez/Project-Dashboards/tree/main">Clicking here</a>.
   </p>
 </div>
@@ -24,9 +24,9 @@
     <td style="padding: 15px; border: 1px solid #ddd;">
       <h3>☁️ Cloud Services</h3>
       <ul>
-        <li><strong>AWS EC2</strong> - Final hosting solution</li>
-        <li><strong>AWS Lightsail</strong> - Initial attempt</li>
-        <li><strong>AWS Elastic Beanstalk</strong> - Explored option</li>
+        <li><strong>Amazon Lightsail</strong> - Final hosting solution</li>
+        <li><strong>AWS EC2</strong> - Explored option</li>
+        <li><strong>AWS Elastic Beanstalk</strong> - Alternative tested</li>
         <li><strong>AWS App Runner</strong> - Alternative tested</li>
       </ul>
     </td>
@@ -54,7 +54,7 @@
       <h3>🔍 Monitoring & Management</h3>
       <ul>
         <li><strong>SSH</strong> - Remote access</li>
-        <li><strong>Security Groups</strong> - Firewall configuration</li>
+        <li><strong>Networking</strong> - Firewall configuration</li>
         <li><strong>systemd</strong> - Service management</li>
         <li><strong>Ubuntu 24.04 LTS</strong> - Operating system</li>
       </ul>
@@ -70,18 +70,18 @@
 
 ### 🔄 Phase 1: Service Exploration
 <div style="margin-left: 20px; padding: 10px;">
-  <p>✅ Evaluated AWS Lightsail for simple deployment</p>
+  <p>✅ Evaluated AWS EC2 for full control deployment</p>
   <p>✅ Tested AWS Elastic Beanstalk for managed platform</p>
   <p>✅ Explored AWS App Runner for containerized apps</p>
-  <p>✅ Selected EC2 for maximum control and flexibility</p>
+  <p>✅ Selected Amazon Lightsail for simplicity and cost-effectiveness</p>
 </div>
 
-### ⚙️ Phase 2: EC2 Instance Setup
+### ⚙️ Phase 2: Lightsail Instance Setup
 <div style="margin-left: 20px; padding: 10px;">
-  <p>✅ Launched Ubuntu 24.04 LTS t2.micro instance</p>
-  <p>✅ Configured security groups for ports 22, 80, and 8000</p>
-  <p>✅ Generated and configured SSH key pairs</p>
-  <p>✅ Assigned public IP address</p>
+  <p>✅ Created Ubuntu 24.04 LTS instance on Lightsail</p>
+  <p>✅ Configured networking for ports 22, 80, and 8000</p>
+  <p>✅ Downloaded and configured SSH key pairs</p>
+  <p>✅ Connected via SSH to the instance</p>
 </div>
 
 ### 🐍 Phase 3: Environment Configuration
@@ -131,6 +131,6 @@
   <p style="color: #666;">
     <strong>Project Status:</strong> ✅ Successfully Deployed | 
     <strong>Region:</strong> EU (Frankfurt) | 
-    <strong>Instance Type:</strong> t2.micro
+    <strong>Instance Type:</strong> Lightsail 1 GB RAM
   </p>
 </div>
