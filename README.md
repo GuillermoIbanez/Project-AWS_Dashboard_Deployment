@@ -114,15 +114,12 @@
 ## 🌐 Dashboard Link
 
 <div align="center" style="background-color: #e3f2fd; padding: 30px; border-radius: 15px; margin: 30px 0;">
-  <h3>🎯 Click the link below to access the live dashboard:</h3>
+  <h3>Click the link below to access the live dashboard:</h3>
   <a href="http://18.196.82.106:8000/" target="_blank" style="text-decoration: none;">
     <div style="background-color: #1976d2; color: white; padding: 15px 30px; border-radius: 30px; display: inline-block; font-size: 20px; font-weight: bold; margin: 10px;">
       🚀 http://18.196.82.106:8000/
     </div>
   </a>
-  <p style="color: #666; margin-top: 15px;">
-    <em>Note: The dashboard displays Apple Inc. financial data with interactive visualizations</em>
-  </p>
 </div>
 
 <br>
