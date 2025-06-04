@@ -10,7 +10,8 @@
 
 <div style="background-color: #f0f0f0; padding: 20px; border-radius: 10px; margin: 20px 0;">
   <p style="font-size: 18px;">
-    This project demonstrates the complete deployment process of a Python Dash financial dashboard on AWS infrastructure. The main goal was to successfully deploy and host an interactive dashboard application using AWS services, focusing on the deployment methodology rather than the dashboard code itself. Through various trials with different AWS services, we achieved a stable, accessible web application running on AWS EC2.
+    This project demonstrates the complete deployment process of a Python Dash financial dashboard on AWS infrastructure. The main goal was to successfully deploy and host an interactive dashboard application using AWS services, focusing on the deployment methodology rather than the dashboard code itself. Through various trials with different AWS services, we achieved a stable, accessible web application running on AWS EC2.<br>
+    For details on the Python code and the data set used please visit the Dashboard Project Repository <a href="https://github.com/GuillermoIbanez/Project-Dashboards/tree/main">Clicking here</a>.
   </p>
 </div>
 
