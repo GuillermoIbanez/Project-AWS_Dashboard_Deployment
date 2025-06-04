@@ -1,11 +1,8 @@
-# 🚀 AWS Dashboard Deployment Project
-
 <div align="center">
-  <img src="https://img.shields.io/badge/AWS-EC2-orange?style=for-the-badge&logo=amazon-aws" alt="AWS EC2">
-  <img src="https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python" alt="Python">
-  <img src="https://img.shields.io/badge/Dash-Plotly-green?style=for-the-badge&logo=plotly" alt="Dash">
-  <img src="https://img.shields.io/badge/Status-Live-success?style=for-the-badge" alt="Status">
+  <h1>Guillermo Ibanez | 🚀AWS Dashboard Deployment Project</h1>
+  <h1><img src="https://user-images.githubusercontent.com/74038190/221352987-68da234d-4d62-4e9d-9d7f-098dc657c2dc.gif" width="700" height="150"></h1>
 </div>
+
 
 <br>
 
